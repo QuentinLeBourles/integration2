@@ -1,0 +1,182 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(anicb___.ttf);
+    src: url(anicm___.ttf),
+         url(anirb___.ttf),
+         url(anirm___.ttf);
+}
+@font-face {
+    font-family: secondFont;
+    src: url(partybusiness.ttf);
+}
+@font-face{
+    font-family: thirdFont;
+    src: url(tngan.ttf);
+    src: url(tnganb.ttf),
+         url(tnganbi.ttf),
+         url(tngani.ttf);
+}
+.zibouiboui{
+    font-family: thirdfont; 
+    font-size: 25px;
+    color: #fd661e;
+    font-weight: normal;
+}
+p, h1, h3, h5, td, th, option, label, input, select, textarea{
+    font-family: myFirstFont;
+}
+.carousel-item p, .carousel-item h5{
+    font-family: secondFont; 
+    font-size: 38px;
+}
+.minititre, .dead, .bulle, .card-text{
+    font-family: secondFont;
+}
+.slide{
+    max-height: 540px;
+}
+section{
+    margin-top: 0px;
+}
+.rew{
+    margin-top: 50px;
+}
+.boutons{
+    margin-bottom: 30px;
+}
+a{
+    color: white;
+    font-family: myFirstFont;
+}
+.hunter h5, .hunter p, .hunter a{
+    font-family: secondFont;
+}
+.hunter h5{
+    font-size: 55px;
+}
+.hunter p{
+    font-size: 30px;
+}
+.navbar-nav li{
+    border-right: 3px solid white;
+    color: white;
+}
+.navcolor a:hover{
+    text-decoration: underline;
+    background-color: #fd661e;
+    color: white;   
+}
+.miniportrait, .miniportrait2{
+    border: 5px solid black;
+    background-color: black;
+}
+.miniportrait img{
+    opacity: 0.6;
+}   
+.miniportrait:hover img{
+    opacity: 1;
+}
+.miniportrait:hover .minititre{
+    opacity: 0;
+    transition: 0.4s;
+}
+.miniportrait:hover .bulle{
+    transform: translateY(150px);
+    transition: 0.8s;
+}
+.miniportrait2 img{
+    opacity: 0.6;
+}
+.minititre{
+    background-color: rgb(231, 231, 231);
+    color: black;
+    font-size: 30px;
+}
+.bulle{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+.card-title span{
+    color: #fd661e;
+}
+.slidecap{
+    margin-bottom: 12%;
+}
+.first{
+    margin-right: 20px;
+    font-size: 110%;
+}
+.subtitle{
+    font-size: 20px;
+}
+.card-body .card-text{
+    font-size: 20px;
+}
+.navcolor, .ring .card-header, .footercolor{
+    background-color:#fd661e;
+}
+.reward, .ring, .contact{
+    background-image: url(integration_maquette_finale/bg_dark.png);
+}
+.join, .fellows, .hunter{
+    background-image: url(integration_maquette_finale/bg_light.png);
+}
+.reward h1, .reward p{
+    color: white;
+}   
+.ring h1{
+    color: white;   
+}
+.btn{
+    color: #64615a;
+    margin-right: 15px;
+}
+.hierohov:hover a{
+    color: #fd661e; 
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.hierohov:hover .hiero {
+    opacity: 1;
+    text-decoration: underline;
+}
+.hiero{
+    font-family: thirdFont;
+    color: #fd661e;
+    opacity: 0;
+}
+.orangelink{
+    color: #fd661e;
+}
+.smallnav{
+    font-size: 12px;
+}
+h1{
+    font-size: 1.4em;
+}
+hr{
+    color: #fd661e;
+    height: 5px;
+}
+.dead{
+    color: #fd661e;
+    font-size: 45px;
+}
+.deadnametext{
+    text-decoration: line-through;
+    color: #fd661e;
+    margin-top: 180px;
+}
+.outer{
+    color: white;
+}
+.gollum{
+    color: grey;
+}
+.join{
+    font-weight: bold;
+}
+.profile{
+    color: #202529;
+}
